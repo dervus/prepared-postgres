@@ -1,0 +1,18 @@
+[package]
+name = "prepared-postgres-derive"
+version = "0.1.0"
+authors = ["Vladimir Zapparov <dervus.grim@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+test = false
+
+[dependencies]
+postgres = "0.16.0-rc.2"
+prepared-postgres = { path = "../prepared-postgres" }
+syn = "0.15.42"
+quote = "0.6.13"
+
+[dev-dependencies]
+dotenv = "0.14.1"

@@ -1,0 +1,16 @@
+[package]
+name = "prepared-postgres"
+version = "0.1.0"
+authors = ["Vladimir Zapparov <dervus.grim@gmail.com>"]
+edition = "2018"
+
+[lib]
+test = false
+
+[dependencies]
+log = "0.4.7"
+failure = "0.1.5"
+postgres = "0.16.0-rc.2"
+
+[dev-dependencies]
+dotenv = "0.14.1"
